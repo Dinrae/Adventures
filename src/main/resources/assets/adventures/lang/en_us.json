@@ -1,4 +1,9 @@
 {
   "block.adventures.stone_bricks_weaver": "Stone Bricks Weaver",
-  "itemGroup.adventures.general": "Adventures Blocks"
+  "itemGroup.adventures.building_blocks": "Adventures Building Blocks",
+  "itemGroup.adventures.decoration": "Adventures Decoration Blocks",
+  "itemGroup.adventures.miscellaneous": "Adventures Miscellaneous",
+  "itemGroup.adventures.foodstuffs": "Adventures Foodstuffs",
+  "itemGroup.adventures.tools": "Adventures Tools",
+  "itemGroup.adventures.combat": "Adventures Combat"
 }

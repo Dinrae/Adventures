@@ -3,14 +3,13 @@ package com.asmodin.adventures.registry;
 import com.asmodin.adventures.Adventures;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
     // BLOCK ITEMS
-    public static final BlockItem STONE_BRICKS_WEAVER = new BlockItem(ModBlocks.STONE_BRICKS_WEAVER, new Item.Settings().group(Adventures.ITEM_GROUP));
+    public static final BlockItem STONE_BRICKS_WEAVER = new BlockItem(ModBlocks.STONE_BRICKS_WEAVER, new Item.Settings().group(Adventures.BUILDING_BLOCKS));
 
 
     //ITEMS

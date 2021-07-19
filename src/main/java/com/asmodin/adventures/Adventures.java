@@ -10,13 +10,30 @@ import net.minecraft.util.Identifier;
 
 public class Adventures implements ModInitializer {
 
+    // MOD_ID
     public  static final String MOD_ID = "adventures";
 
-    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
-            new Identifier(MOD_ID, "general"),
+    // CREATIVE TABS
+    public static final ItemGroup BUILDING_BLOCKS = FabricItemGroupBuilder.build(
+            new Identifier(MOD_ID, "building_blocks"),
+            () -> new ItemStack (ModItems.STONE_BRICKS_WEAVER));
+    public static final ItemGroup DECORATION_BLOCKS = FabricItemGroupBuilder.build(
+            new Identifier(MOD_ID, "decoration_blocks"),
+            () -> new ItemStack (ModItems.STONE_BRICKS_WEAVER));
+    public static final ItemGroup MISCELLANEOUS = FabricItemGroupBuilder.build(
+            new Identifier(MOD_ID, "miscellaneous"),
+            () -> new ItemStack (ModItems.STONE_BRICKS_WEAVER));
+    public static final ItemGroup FOODSTUFFS = FabricItemGroupBuilder.build(
+            new Identifier(MOD_ID, "foodstuffs"),
+            () -> new ItemStack (ModItems.STONE_BRICKS_WEAVER));
+    public static final ItemGroup Tools = FabricItemGroupBuilder.build(
+            new Identifier(MOD_ID, "tools"),
+            () -> new ItemStack (ModItems.STONE_BRICKS_WEAVER));
+    public static final ItemGroup Combat = FabricItemGroupBuilder.build(
+            new Identifier(MOD_ID, "combat"),
             () -> new ItemStack (ModItems.STONE_BRICKS_WEAVER));
 
-
+    // INITIALIZATION
     @Override
     public void onInitialize() {
         ModBlocks.registerBlocks();
