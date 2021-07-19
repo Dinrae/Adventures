@@ -10,7 +10,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     // BLOCK ITEMS
-    public static final BlockItem STONE_BRICKS_WEAVER = new BlockItem(ModBlocks.STONE_BRICKS_WEAVER, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem STONE_BRICKS_WEAVER = new BlockItem(ModBlocks.STONE_BRICKS_WEAVER, new Item.Settings().group(Adventures.ITEM_GROUP));
 
 
     //ITEMS
