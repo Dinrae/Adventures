@@ -18,8 +18,16 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.STONE)
     );
 
+    public static final Block BASKET_LAUNDRY_01 = new Block(FabricBlockSettings.of(Material.STONE)
+            .breakByTool(FabricToolTags.PICKAXES,0)
+            .requiresTool()
+            .strength(1.5f, 30.0f)
+            .sounds(BlockSoundGroup.STONE)
+    );
+
     public static void registerBlocks()
     {
         Registry.register(Registry.BLOCK, new Identifier(Adventures.MOD_ID, "stone_bricks_weaver"), STONE_BRICKS_WEAVER);
+        Registry.register(Registry.BLOCK, new Identifier(Adventures.MOD_ID, "basket_laundry_01"), BASKET_LAUNDRY_01);
     }
 }
