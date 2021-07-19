@@ -1,6 +1,7 @@
 package com.asmodin.adventures.registry;
 
 import com.asmodin.adventures.Adventures;
+import com.asmodin.adventures.blocks.BasketLaundry;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
@@ -18,11 +19,12 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.STONE)
     );
 
-    public static final Block BASKET_LAUNDRY_01 = new Block(FabricBlockSettings.of(Material.STONE)
+    public static final Block BASKET_LAUNDRY_01 = new BasketLaundry(FabricBlockSettings.of(Material.STONE)
             .breakByTool(FabricToolTags.PICKAXES,0)
             .requiresTool()
             .strength(1.5f, 30.0f)
             .sounds(BlockSoundGroup.STONE)
+            .nonOpaque()
     );
 
     public static void registerBlocks()
