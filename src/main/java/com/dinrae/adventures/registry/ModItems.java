@@ -1,6 +1,6 @@
-package com.asmodin.adventures.registry;
+package com.dinrae.adventures.registry;
 
-import com.asmodin.adventures.Adventures;
+import com.dinrae.adventures.Adventures;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;

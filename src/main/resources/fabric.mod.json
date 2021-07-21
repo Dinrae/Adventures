@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.asmodin.adventures.Adventures"
+      "com.dinrae.adventures.Adventures"
     ]
   },
   "mixins": [

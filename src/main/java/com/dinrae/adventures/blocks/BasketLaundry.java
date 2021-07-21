@@ -1,4 +1,4 @@
-package com.asmodin.adventures.blocks;
+package com.dinrae.adventures.blocks;
 
 import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;
@@ -29,10 +29,10 @@ public class BasketLaundry extends Block {
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx) {
         Direction dir = state.get(FACING);
         return switch (dir) {
-            case NORTH -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 0.5f);
-            case SOUTH -> VoxelShapes.cuboid(0.0f, 0.0f, 0.5f, 1.0f, 1.0f, 1.0f);
-            case EAST -> VoxelShapes.cuboid(0.5f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f);
-            case WEST -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 0.5f, 1.0f, 1.0f);
+            case NORTH -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 1.0f, 0.7f, 1.0f);
+            case SOUTH -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 1.0f, 0.7f, 1.0f);
+            case EAST -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 1.0f, 0.7f, 1.0f);
+            case WEST -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 1.0f, 0.7f, 1.0f);
             default -> VoxelShapes.fullCube();
         };
     }

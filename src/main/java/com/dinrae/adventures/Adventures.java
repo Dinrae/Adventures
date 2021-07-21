@@ -1,7 +1,7 @@
-package com.asmodin.adventures;
+package com.dinrae.adventures;
 
-import com.asmodin.adventures.registry.ModBlocks;
-import com.asmodin.adventures.registry.ModItems;
+import com.dinrae.adventures.registry.ModBlocks;
+import com.dinrae.adventures.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;

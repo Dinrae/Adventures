@@ -1,5 +1,4 @@
 {
-	"parent": "block/block",
 	"textures": {
 		"1": "adventures:blocks/white_wool_laundry",
 		"3": "adventures:blocks/basket_laundry_bottom",
