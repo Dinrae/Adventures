@@ -2,6 +2,7 @@ package com.dinrae.adventures;
 
 import com.dinrae.adventures.registry.ModBlocks;
 import com.dinrae.adventures.registry.ModItems;
+import com.dinrae.adventures.registry.ModStructures;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -38,5 +39,6 @@ public class Adventures implements ModInitializer {
     public void onInitialize() {
         ModBlocks.registerBlocks();
         ModItems.registerItems();
+        ModStructures.registerStructures();
     }
 }

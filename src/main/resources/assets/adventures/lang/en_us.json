@@ -1,4 +1,11 @@
 {
+  "block.adventures.stone_bricks_circular": "Stone Bricks Circular",
+  "block.adventures.stone_bricks_cracked": "Stone Bricks Cracked",
+  "block.adventures.stone_bricks_dent": "Stone Bricks Dent",
+  "block.adventures.stone_bricks_mosaic": "Stone Bricks Mosaic",
+  "block.adventures.stone_bricks_tiles_small": "Stone Bricks Tiles Small",
+  "block.adventures.stone_bricks_tiles_medium": "Stone Bricks Tiles Medium",
+  "block.adventures.stone_bricks_tiles_large": "Stone Bricks Tiles Large",
   "block.adventures.stone_bricks_weaver": "Stone Bricks Weaver",
   "block.adventures.basket_laundry_01": "Basket Laundry",
 
