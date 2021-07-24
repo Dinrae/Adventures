@@ -1,4 +1,4 @@
-package com.dinrae.adventures.init;
+package com.dinrae.adventures.registry;
 
 import com.dinrae.adventures.Adventures;
 import com.dinrae.adventures.blocks.BasketLaundry;

@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": "minecraft:stone_bricks_tiles_large",
+  "result": "adventures:stone_bricks_tiles_large",
   "count": 1
 }

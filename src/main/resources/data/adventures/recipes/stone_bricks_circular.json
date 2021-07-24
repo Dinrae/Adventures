@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": "minecraft:stone_bricks_cracked",
+  "result": "adventures:stone_bricks_circular",
   "count": 1
 }
