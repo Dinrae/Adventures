@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "adventures:blocks/stone_bricks_tiles_medium"
+    "all": "adventures:blocks/stone_bricks/tiles_medium"
   }
 }
