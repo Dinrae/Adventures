@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": "minecraft:stone_bricks/mosaic",
+  "result": "minecraft:stone_bricks_dent",
   "count": 1
 }

@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": "minecraft:stone_bricks/dent",
+  "result": "minecraft:stone_bricks_cracked",
   "count": 1
 }

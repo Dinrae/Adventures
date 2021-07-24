@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": "minecraft:stone_bricks/tiles_small",
+  "result": "minecraft:stone_bricks_mosaic",
   "count": 1
 }
