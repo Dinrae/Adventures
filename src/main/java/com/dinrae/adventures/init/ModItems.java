@@ -1,4 +1,4 @@
-package com.dinrae.adventures.registry;
+package com.dinrae.adventures.init;
 
 import com.dinrae.adventures.Adventures;
 import net.minecraft.item.BlockItem;
@@ -24,14 +24,14 @@ public class ModItems {
 
     public static void registerItems()
     {
-        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks/circular"), STONE_BRICKS_CIRCULAR);
-        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks/cracked"), STONE_BRICKS_CRACKED);
-        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks/dent"), STONE_BRICKS_DENT);
-        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks/mosaic"), STONE_BRICKS_MOSAIC);
-        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks/tiles_large"), STONE_BRICKS_TILES_LARGE);
-        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks/tiles_medium"), STONE_BRICKS_TILES_MEDIUM);
-        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks/tiles_small"), STONE_BRICKS_TILES_SMALL);
-        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks/weaver"), STONE_BRICKS_WEAVER);
+        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks_circular"), STONE_BRICKS_CIRCULAR);
+        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks_cracked"), STONE_BRICKS_CRACKED);
+        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks_dent"), STONE_BRICKS_DENT);
+        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks_mosaic"), STONE_BRICKS_MOSAIC);
+        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks_tiles_large"), STONE_BRICKS_TILES_LARGE);
+        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks_tiles_medium"), STONE_BRICKS_TILES_MEDIUM);
+        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks_tiles_small"), STONE_BRICKS_TILES_SMALL);
+        Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "stone_bricks_weaver"), STONE_BRICKS_WEAVER);
         Registry.register(Registry.ITEM, new Identifier(Adventures.MOD_ID, "basket_laundry_01"), BASKET_LAUNDRY_01);
     }
 }

@@ -1,6 +1,4 @@
-package com.dinrae.adventures.registry;
-
-import com.dinrae.adventures.Adventures;
+package com.dinrae.adventures.init;
 
 public class ModStructures {
 

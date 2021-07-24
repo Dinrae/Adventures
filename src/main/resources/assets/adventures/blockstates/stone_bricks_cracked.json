@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "adventures:block/stone_bricks/cracked" }
+    "": { "model": "adventures:block/stone_bricks_cracked" }
   }
 }
